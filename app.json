@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "扒皮猴商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#fd4328",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/assets/icons/h.png",
+      "selectedIconPath": "/assets/icons/ha.png"
+    },{
+      "pagePath": "pages/category/category",
+      "text": "分类",
+      "iconPath": "/assets/icons/g.png",
+      "selectedIconPath": "/assets/icons/ga.png"
+    },{
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "/assets/icons/c.png",
+      "selectedIconPath": "/assets/icons/ca.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "个人中心",
+      "iconPath": "/assets/icons/m.png",
+      "selectedIconPath": "/assets/icons/ma.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
