@@ -1,4 +1,2 @@
 <!--index.wxml-->
-<view class="container">
-  首页
-</view>
+<van-button type="warning">首页</van-button>

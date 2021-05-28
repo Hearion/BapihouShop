@@ -4,6 +4,6 @@ App({
    
   },
   globalData: {
-    
+      baseUrl: 'https://api.shop.eduwork.cn/'
   }
 })
